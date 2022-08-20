@@ -9,7 +9,7 @@ body {
 
 header {
   background-color: #404040;
-  padding: 1rem
+  padding: 1rem;
 }
 
 header a {
@@ -19,4 +19,17 @@ header a {
   text-decoration: none
 }
 
-;
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  border: 1px solid #404040;
+  margin: 1rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 300px;
+}
